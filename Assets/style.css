@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
     color: #ffffff;
 }
 
@@ -12,12 +12,19 @@ body {
 
 .header {
     padding: 20px;
-    background-color: #2a607c;
+    /* background-color: #2a607c; */
+    background: -webkit-linear-gradient(360deg, #1C1C1C 10%, #494949 360%); background: -moz-linear-gradient(360deg, #1C1C1C 10%, #494949 360%); background: linear-gradient(360deg, #1C1C1C 10%, #494949 360%);
 }
 
 .header h1 {
     display: inline-block;
+    background-size: 50px 50px;
     font-size: 48px;
+    color: #7C898D;
+}
+
+.header h1 jk {
+    color: darkgray;
 }
 
 .header h1 .seo {
@@ -45,11 +52,17 @@ a {
 }
 
 .hero {
-    height: 800px;
+    height: 100%;
     width: 100%;
     margin-bottom: 25px;
-    background-size: cover;
+    /* background-size: cover; */
     background-position: center;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
 }
 
 .content {
