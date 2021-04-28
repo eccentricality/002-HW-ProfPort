@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Noto Sans TC', sans-serif;
-    color: #ffffff;
+    color: white;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 
 .header {
     padding: 20px;
-    /* background-color: #2a607c; */
+    background-color: #2a607c;
     background: -webkit-linear-gradient(360deg, #1C1C1C 10%, #494949 360%); background: -moz-linear-gradient(360deg, #1C1C1C 10%, #494949 360%); background: linear-gradient(360deg, #1C1C1C 10%, #494949 360%);
 }
 
@@ -23,12 +23,8 @@ body {
     color: #7C898D;
 }
 
-.header h1 jk {
-    color: darkgray;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
+.header h1 .jk {
+    color: green;
 }
 
 .header menu {
@@ -55,14 +51,8 @@ a {
     height: 100%;
     width: 100%;
     margin-bottom: 25px;
-    /* background-size: cover; */
+    background-size: cover;
     background-position: center;
-}
-
-.bottom-right {
-    position: absolute;
-    bottom: 100px;
-    right: 200px;
 }
 
 .content {
@@ -71,11 +61,60 @@ a {
     margin-left: 20px;
 }
 
-.content-card1, .content-card2, .content-card3 {
+.about_me, .work, .contact_me, .resume {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    background-color: #0072bb;
+    background-color: none;
+}
+
+.about_me h2 {
+    position: relative;
+    top: 90px;
+    left: -205px;
+    /* transform: translateX(-1px); */
+    font-size: 35px;
+    color: #7C898D;
+}
+
+.work h2 {
+    position: relative;
+    top: 90px;
+    left: -175px;
+    font-size: 35px;
+    color: #7C898D;
+}
+
+.contact_me h2 {
+    position: relative;
+    top: 90px;
+    left: -220px;
+    font-size: 35px;
+    color: #7C898D;
+}
+
+.resume h2 {
+    position: relative;
+    top: 90px;
+    left: -190px;
+    font-size: 35px;
+    color: #7C898D;
+}
+
+.about_me h2 .diff_color {
+    color: green;
+}
+
+.work h2 .diff_color {
+    color: green;
+}
+
+.contact_me h2 .diff_color {
+    color: green;
+}
+
+.resume h2 .diff_color {
+    color: green;
 }
 
 .content-card1 img, .content-card2 img, .content-card3 img {
