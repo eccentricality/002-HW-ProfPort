@@ -68,7 +68,7 @@ a {
 .work {
     margin-bottom: 0px;
     padding: 10px;
-    height: 800px;
+    height: 1375px;
     background-color: #d9e6f2;
 }
 
@@ -119,93 +119,76 @@ a {
 .work h2 .diff_color {
     color: green;
 }
-
 /*---------------------------------*/
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
-  }
-  
-  .justify-center {
-    justify-content: center;
-  }
-  
-  /* using a mobile-first approach, set base column width to be 100% and we'll update it using media queries for larger screen sizes */
-  .card-column {
-    flex: 1 0 100%;
-    padding: 1.5rem;
-    /* when the screen resizes, make it so our columns don't jump in size */
-    transition: flex-basis 500ms linear;
-    margin-bottom: 1.5rem;
-  }
-  
-  /* make each code card a flexbox column to align and justify content within it */
-  .code-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    min-height: 100%;
-    padding: 2rem;
-    color: var(--heliotrope);
-  
-    /* outline is like border, but on the outside of the box instead of inside */
-    outline: 2px dashed var(--gin);
-    outline-offset: -2px;
-    transition: all 0.5s ease-in-out;
-  }
-  
-  .code-card .card-header {
-    /* use position and negative margins to move title of card over the card's outline and create an overlap effect */
-    position: relative;
-    margin: -4rem 0 1.5rem 0;
-    padding: 0.5rem 1rem;
-    background-color: var(--outer-space);
-    color: var(--heliotrope);
-    border: 2px solid var(--gin);
-    border-radius: 8px;
-    transition: all 0.5s ease-in-out;
-  }
-  
-  /* set an outer and inner drop shadow on the card to create a glowing effect on hover */
-  .code-card:hover,
-  .code-card:hover .card-header {
-    box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
-  }
-  
-  /* each card's code block grows to the height of the largest code block on the page, making each card even in height */
-  .code-card .code-block {
-    flex-grow: 1;
-  }
-  
-  .code-card article {
-    /* set styles to make it so code wraps in <pre> instead of overflowing */
-    white-space: pre-wrap;
-    overflow: auto;
-    tab-size: 4;
-    padding: 1.2rem 1rem;
-    color: var(--gin);
-    border-radius: 8px;
-    /* use linear-gradient() function to create a fading background  */
-    background-image: linear-gradient(
-      rgba(232, 102, 236, 0.3) 0%,
-      rgba(232, 102, 236, 0.6) 100%
-    );
-    display: flex;
-    align-items: center;
-  }
+.stock_column {
+    width: 1850px;
+    height: 600px;
+}
 
-  .code-card article img {
-      max-width: 100%;
-      max-height: 100%;
-  }
-  
-  /* on <pre> click, select all contents so the code is highlighted */
-  .code-card article:active {
-    user-select: all;
-  }
+.stock1_position {
+    width: 1550px;
+    height: 550px;
+    border: 10px solid chartreuse;
+}
+
+a:hover{
+    box-shadow: inset 0px 0px 8px navajowhite, 0 0 15px navajowhite;
+    }
+
+.stock2_position {
+    position: relative;
+    bottom: 35px;
+    left: 280px;
+    width: 420px;
+    height: 350px;
+    border: 10px solid chartreuse;
+}
+
+.stock3_position {
+    position: relative;
+    bottom: 635px;
+    left: 715px;
+    width: 520px;
+    height: 350px;
+    border: 10px solid chartreuse;
+}
+
+.stock4_position {
+    position: relative;
+    bottom: 1235px;
+    left: 1250px;
+    width: 580px;
+    height: 350px;
+    border: 10px solid chartreuse;
+}
+
+.stock5_position {
+    position: relative;
+    bottom: 1470px;
+    left: 280px;
+    width: 520px;
+    height: 350px;
+    border: 10px solid chartreuse;
+}
+
+.stock6_position {
+    position: relative;
+    bottom: 2070px;
+    left: 815px;
+    width: 520px;
+    height: 350px;
+    border: 10px solid chartreuse;
+}
+
+.stock7_position {
+    position: relative;
+    bottom: 2670px;
+    left: 1350px;
+    width: 480px;
+    height: 350px;
+    border: 10px solid chartreuse;
+}
+
 /*---------------------------------*/
 .contact_me h2 .diff_color {
     color: green;
