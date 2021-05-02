@@ -9,7 +9,7 @@
 
 /* baseline color */
 body {
-    background-color: #d9dcd6;
+    background-color: #1f1f2e;
 }
 
 /* attempted to find nice color to match theme of the page with a bit of unique flair than standard grey */
@@ -77,14 +77,14 @@ main {
 .about_me, .contact_me {
     height: 300px;
     width: 100%;
-    background-color:#ecf2f9;
+    background-color:#1f1f2e;
 }
 
 .work {
     margin-bottom: 0px;
     padding: 10px;
     height: 1375px;
-    background-color: #d9e6f2;
+    background-color: #34344c;
 }
 
 /* attempted to properly line images in work portion */
@@ -97,7 +97,7 @@ main {
     margin-bottom: 0px;
     padding: 10px;
     height: 300px;
-    background-color: #d9e6f2;
+    background-color: #34344c;
 }
 
 /* spent too much time using relative to line folder and summary header, did not have time to go back and readjust with flex */
