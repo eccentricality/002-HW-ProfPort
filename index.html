@@ -3,9 +3,12 @@
 
 <head>
     <meta charset="UTF-8" />
+    <!-- reset sheet obtained from google database -->
     <link rel="stylesheet" href="./Assets/reset.css">
     <link rel="stylesheet" href="./Assets/style.css">
+    <!-- simple title for project -->
     <title>Professional Portfolio Webpage</title>
+    <!-- font style choice obtained from google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
 </head>
@@ -13,10 +16,12 @@
 <body>
 
     <nav class="header">
+        <!-- wrapped few letters in span for style -->
         <h1><span class="jk">J</span>ason <span class="jk">K</span>im</h1>
 
         <menu>
             <ul>
+                <!-- all links properly navigate to proper section -->
                 <li>
                     <a href="#about_me">About Me</a>
                 </li>
@@ -35,6 +40,7 @@
     </nav>
 
     <header>
+        <!-- stylish banner to go with grey theme, included proper alt descriptions for all images -->
         <img src="./Assets/Images/hexagonal_grey_sm.jpg" alt="Cool grey banner." class="hero">
     </header>
 
@@ -43,7 +49,7 @@
         <section class="content">
 
             <summary id="about_me" class="about_me">
-                <img src="./Assets/Images/img_folder.png" alt="Picture of a folder" class="float-left" />
+                <img src="./Assets/Images/img_folder.png" alt="Picture of a folder" class="media_hide float-left" />
                 <h2><span class="diff_color">A</span>bout <span class="diff_color">M</span>e</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ex consequatur accusantium fugiat perferendis quibusdam hic veritatis illum tenetur expedita est quas amet, vitae delectus excepturi veniam, dicta esse. Tempora quaerat expedita odio, incidunt vero iure ex, pariatur deserunt soluta dolorum omnis, similique nesciunt. At cumque illo alias ab eligendi.
@@ -53,42 +59,29 @@
 
             <summary id="work" class="work">
                 
-                <img src="./Assets/Images/img_folder.png" alt="Picture of a folder" class="float-left" />
+                <img src="./Assets/Images/img_folder.png" alt="Picture of a folder" class="media_hide  float-left" />
                 <h2><span class="diff_color">W</span class="diff_color">ork</h2>
                 
-                
-                <article class="stock_column">
-                    <a href="#"><img href="#" src="Assets/Images/stock1.jpg" class="stock1_position"/></a>
+                <article class="stock_position1">
+                    <img src="Assets/Images/stock1.jpg" alt="stock placeholder image" class = "stock_position1 stock_style1"/>
                 </article>
                 
-                <article class="stock_column">
-                    <img src="Assets/Images/stock2.jpg" class="stock2_position"/>
+                <article class="stock_position">
+                    <img src="Assets/Images/stock2.jpg" alt="stock placeholder image" class = "stock_style"/>
+                    <img src="Assets/Images/stock3.jpg" alt="stock placeholder image" class = "stock_style"/>
+                    <img src="Assets/Images/stock4.jpg" alt="stock placeholder image" class = "stock_style"/>
                 </article>
-
-                <article class="stock_column">
-                    <img src="Assets/Images/stock3.jpg" class="stock3_position"/>
-                </article>
-
-                <article class="stock_column">
-                    <img src="Assets/Images/stock4.jpg" class="stock4_position"/>
-                </article>
-
-                <article class="stock_column">
-                    <img src="Assets/Images/stock5.jpg" class="stock5_position"/>
-                </article>
-
-                <article class="stock_column">
-                    <img src="Assets/Images/stock6.jpg" class="stock6_position"/>
-                </article>
-
-                <article class="stock_column">
-                    <img src="Assets/Images/stock7.jpg" class="stock7_position"/>
+                
+                <article class="stock_position">
+                    <img src="Assets/Images/stock5.jpg" alt="stock placeholder image" class = "stock_style"/>
+                    <img src="Assets/Images/stock6.jpg" alt="stock placeholder image" class = "stock_style"/>
+                    <img src="Assets/Images/stock7.jpg" alt="stock placeholder image" class = "stock_style"/>
                 </article>
 
             </summary>
 
             <summary id="contact_me" class="contact_me">
-                <img src="./Assets/Images/img_folder.png" alt="Picture of a folder" class="float-left" />
+                <img src="./Assets/Images/img_folder.png" alt="Picture of a folder" class="media_hide  float-left" />
                 <h2><span class="diff_color">C</span>ontact <span class="diff_color">M</span>e</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptatem vel cum asperiores error et ipsam illo atque sapiente ex at iure nam quo alias incidunt nemo praesentium est enim aliquid accusamus ut, cupiditate nisi esse eaque. Officiis, consequuntur. Debitis eius in soluta est laborum! Cupiditate repellendus dolorum reprehenderit odit!
@@ -96,7 +89,7 @@
             </summary>
 
             <summary id="resume" class="resume">
-                <img src="./Assets/Images/img_folder.png" alt="Picture of a folder" class="float-left" />
+                <img src="./Assets/Images/img_folder.png" alt="Picture of a folder" class="media_hide  float-left" />
                 <h2><span class="diff_color">R</span>esume</h2>
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis sit aspernatur molestias. Iure provident modi nisi nulla accusantium expedita aliquam? Provident cum esse adipisci veritatis atque. Ullam eos, soluta, animi dolorem voluptas, aliquid rem quaerat consectetur debitis tempora quibusdam ipsa tenetur quia neque corporis accusantium. Delectus ut alias optio sint!
@@ -106,7 +99,7 @@
         </section>
 
     </main>
-
+    <!-- minor footer adjustments for personal customization -->
     <footer class="footer">
 
         <h2>made with ❤️️ by eccentricality</h2>
